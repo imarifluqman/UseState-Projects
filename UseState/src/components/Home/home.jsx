@@ -5,19 +5,19 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="">
-      <div className="bg-[#17372A] flex justify-center items-center h-64 ">
+      <div className="bg-[#0a0e39] flex justify-center items-center h-44 sm:h-64 ">
         <h1 className=" text-2xl sm:text-5xl text-[#fff] font-extrabold">
           Mini Projects Of UseState
         </h1>
       </div>
-      <div className="max-w-[1200px] m-auto my-20">
+      <div className="max-w-[1200px] m-auto my-10 sm:my-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center items-center p-4 gap-10">
           {data.map((item) => {
             return (
               <Link to={item.link} key={item.id}>
               <div
                 
-                className="bg-[#edf0ee] w-full h-[400px] p-6 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105 duration-300 ease-in-out "
+                className="bg-white w-full h-[400px] p-6 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105 duration-300 ease-in-out "
               >
                 <div>
                   <img

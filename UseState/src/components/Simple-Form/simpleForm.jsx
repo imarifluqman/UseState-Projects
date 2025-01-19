@@ -29,7 +29,7 @@ const SimpleForm = () => {
       <div className="bg-[#ff9000] h-screen w-full flex justify-center items-center">
         <form
           onSubmit={handleSubmit}
-          className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md space-y-6"
+          className="bg-white p-8 rounded-lg shadow-lg w-full max-w-xs sm:max-w-md space-y-6"
         >
           <h2 className="text-3xl font-semibold text-center text-black">
             Simple Form

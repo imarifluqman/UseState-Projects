@@ -10,8 +10,8 @@ const RandomNumberGenerator = () => {
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-teal-600 via-teal-500 to-teal-400">
-      <div className="bg-white p-10 rounded-3xl shadow-2xl max-w-md w-full text-center transform transition duration-300 hover:scale-105">
-        <h1 className="text-teal-600 text-3xl md:text-4xl font-extrabold mb-8 tracking-wide">
+      <div className="bg-white p-10 rounded-3xl shadow-2xl max-w-xs sm:max-w-md w-full text-center transform transition duration-300 hover:scale-105">
+        <h1 className="text-teal-600 text-xl sm:text-3xl md:text-4xl font-extrabold mb-8 ">
           Random Number Generator
         </h1>
         <button
@@ -21,7 +21,7 @@ const RandomNumberGenerator = () => {
           Generate Number
         </button>
         {randomNumber !== null && (
-          <p className="text-teal-600 text-2xl mt-6 font-semibold">
+          <p className="text-teal-600 text-xl sm:text-2xl mt-6 font-semibold">
             Generated Number: {randomNumber}
           </p>
         )}

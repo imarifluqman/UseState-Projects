@@ -13,7 +13,7 @@ const Toggle = () => {
   };
   return (
     <div className="min-h-screen flex justify-center items-center bg-[#2a2a]">
-      <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg w-full max-w-lg">
+      <div className="bg-gray-800 text-white p-8 rounded-lg shadow-lg w-full max-w-xs sm:max-w-lg">
         <h1 className="text-3xl font-bold text-center mb-6">Courses List</h1>
 
         <div className="flex justify-center gap-4 mb-4">
@@ -38,7 +38,7 @@ const Toggle = () => {
             {courses.map((course, index) => (
               <li
                 key={index}
-                className="text-xl text-gray-800 p-2 bg-gray-200 rounded-md shadow-md"
+                className="text-base sm:text-xl text-gray-800 p-2 bg-gray-200 rounded-md shadow-md"
               >
                 {course}
               </li>
