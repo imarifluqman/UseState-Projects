@@ -26,47 +26,47 @@ const route = createBrowserRouter([
         element:<App/>
       },
       {
-        path: 'counter',
+        path: '/counter',
         element:<Counter/>
       },
       {
-        path : 'toggle',
+        path : '/toggle',
         element : <Toggle/>
       },
       {
-        path : 'input-mirror',
+        path : '/input-mirror',
         element : <InputMirror/>
       },
       {
-        path : 'simple-form',
+        path : '/simple-form',
         element : <SimpleForm/>
       },
       {
-        path : 'background-changer',
+        path : '/background-changer',
         element : <BackgroundChanger/>
       },
       {
-        path : 'todo-list',
+        path : '/todo-list',
         element : <TodoList/>
       },
       {
-        path : 'mode-changer',
+        path : '/mode-changer',
         element : <ModeChanger/>
       },
       {
-        path : 'character-counter',
+        path : '/character-counter',
         element : <CharacterCounter/>
       },
       {
-        path : 'stop-watch',
+        path : '/stop-watch',
         element : <StopWatch/>
       },
       {
-        path : 'mode-changer',
+        path : '/mode-changer',
         element : <ModeChanger/>
       },
       {
-        path : 'random-generator',
+        path : '/random-generator',
         element : <RandomNumberGenerator/>
       },
       
